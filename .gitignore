@@ -1,0 +1,5 @@
+# Hugo build output and caches. The GitHub Actions workflow builds the site.
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store

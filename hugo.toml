@@ -1,3 +1,33 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://tomblanchard.net/'
+locale = 'en-gb'
+title = 'Tom'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+
+  [params.profileMode]
+    enabled = true
+    title = 'Tom Blanchard'
+    subtitle = 'Technical Writer, Dad, Runner and general technology bodger'
+    imageUrl = 'me.jpeg'        # optional, file in static/
+    imageWidth = 120
+    imageHeight = 120
+
+    [[params.profileMode.buttons]]
+      name = 'Posts'
+      url = '/posts/'
+
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/tomblanch118'
+
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+
